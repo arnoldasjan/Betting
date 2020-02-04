@@ -1,0 +1,50 @@
+        Report Time   Time  ... TOPsport HW TOPsport AW
+0  2020-02-02 18:24  19:30  ...        2.15        1.76
+1  2020-02-02 18:24  21:00  ...        1.14        6.75
+2  2020-02-02 18:24  21:00  ...        1.49        2.81
+3  2020-02-02 18:24  22:00  ...        1.18        5.70
+
+[4 rows x 6 columns]
+TOPsport was successful
+         Home Team             Away Team Optibet HW Optibet AW
+0  Detroit Pistons        Denver Nuggets       2.09       1.72
+1  Houston Rockets  New Orleans Pelicans       1.48       2.60
+2  Milwaukee Bucks          Phoenix Suns       1.11       6.39
+3  Toronto Raptors         Chicago Bulls       1.13       5.80
+Optibet was successful
+         Home Team             Away Team Cbet HW Cbet AW
+0  Detroit Pistons        Denver Nuggets    2.15    1.77
+1  Houston Rockets  New Orleans Pelicans    1.50    2.75
+2  Milwaukee Bucks          Phoenix Suns    1.16    6.00
+3  Toronto Raptors         Chicago Bulls    1.17    5.60
+Cbet was successful
+Empty DataFrame
+Columns: [Home Team, Away Team, Olybet HW, Olybet AW]
+Index: []
+Olybet was successful
+         Home Team             Away Team Unibet HW Unibet AW
+0  Detroit Pistons        Denver Nuggets      2.14      1.74
+1  Houston Rockets  New Orleans Pelicans      1.48      2.75
+2  Milwaukee Bucks          Phoenix Suns      1.13      6.75
+3  Toronto Raptors         Chicago Bulls      1.16      5.60
+Unibet was successful
+         Home Team             Away Team Betsafe HW Betsafe AW
+0  Detroit Pistons        Denver Nuggets       2.16       1.78
+1  Houston Rockets  New Orleans Pelicans       1.50       2.74
+2  Milwaukee Bucks          Phoenix Suns       1.16       5.85
+3  Toronto Raptors         Chicago Bulls       1.17       5.60
+Betsafe was successful
+        Report Time   Time        Home Team  ... Unibet AW Betsafe HW Betsafe AW
+0  2020-02-02 18:24  19:30  Detroit Pistons  ...      1.74       2.16       1.78
+1  2020-02-02 18:24  21:00  Milwaukee Bucks  ...      6.75       1.16       5.85
+2  2020-02-02 18:24  21:00  Houston Rockets  ...      2.75       1.50       2.74
+3  2020-02-02 18:24  22:00  Toronto Raptors  ...      5.60       1.17       5.60
+
+[4 rows x 16 columns]
+        Report Time   Time  ... Max Home Operator Max Away Operator
+0  2020-02-02 18:24  19:30  ...        Betsafe HW        Betsafe AW
+1  2020-02-02 18:24  21:00  ...           Cbet HW       TOPsport AW
+2  2020-02-02 18:24  21:00  ...           Cbet HW       TOPsport AW
+3  2020-02-02 18:24  22:00  ...       TOPsport HW        Optibet AW
+
+[4 rows x 9 columns]
